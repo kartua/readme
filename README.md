@@ -66,5 +66,5 @@ This project can be improved in several ways as follow
 - We can also create a script to real-time request tweets from tweeter and predict real-time stock price. 
 
 ## Limitation
- - A small dataset is one of our limitation for this project
+ - A small dataset after groupping 6000 tweets by date, we only have 70 rows(days) for stock price prediction.
  - We also have time limitation to learn more about deep neural network.
