@@ -2,8 +2,10 @@
 ## Abstract
 In this project, we have create sentiment scores from twitter post and use it to predict that the stock will go up or down on. Then we use that sentiment score as additional data for stock price prediction in another model and compared the result of the prediction with and without sentiment score.
 
-## Data
- The data that we use in this project are twitter post related to American Airline (AAL) which was acquired form  [FollowTheHashtag](https://followthehashtag.com/datasets/nasdaq-100-companies-free-twitter-dataset/) and AAL stock price form Yahoo finance API.
+## Data description
+ The data that we use in this project are 
+ - Twitter post related to American Airline (AAL) which was acquired form  [FollowTheHashtag](https://followthehashtag.com/datasets/nasdaq-100-companies-free-twitter-dataset/)  The data is in from of microsoft excel worksheet and contains many sheet. The data that we use for sentiment analysis is from "stream" sheet. It contains 6507 rows represent each tweet and 26 columns represent information of each tweet such as username, tweet content, followers etc. Then we grouped thost tweet by date to see sentiment score of each day whic shrink our data to only about 70 rows(70 days)
+ - AAL stock price form Yahoo finance API. The data was requested based on dates of our tweet data for the purpose of combining each day stock price and sentiment score.
  ### Project files description
 Our project contain several files.
 
