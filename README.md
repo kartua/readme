@@ -5,7 +5,7 @@ In this project, we have create sentiment scores from twitter post and use it to
 ## Data
  The data that we use in this project are twitter post related to American Airline (AAL) which was acquired form  [FollowTheHashtag](https://followthehashtag.com/datasets/nasdaq-100-companies-free-twitter-dataset/) and AAL stock price form Yahoo finance API.
  ### Project files description
- In our project contain several files.
+Our project contain several files.
 
  - AAL.xlsx: file associated with twitter post related to AAL stock which we acquired from  [FollowTheHashtag](https://followthehashtag.com/datasets/nasdaq-100-companies-free-twitter-dataset/)
  - $AAL_clean.xlsx: A dataset that we created with sentiment score of each day combined with stock price of related day
@@ -18,7 +18,7 @@ In this project, we have create sentiment scores from twitter post and use it to
  - LSTMstock.ipynb: file that we use to create RNN model to predict stock price from $AAL_clean.xlsx
 ## How to use our project
 #### EDA
-Exploratory data analysis can be found in EDA.ipynb file. This file use ABL.csv, contry.csv and tweets.csv as datasets for the analysis
+Exploratory data analysis can be found in EDA.ipynb file. This file uses ABL.csv, contry.csv and tweets.csv as datasets for the analysis
 ### Project implementation
 #### 1. Creating sentiment score and stock price dataset
 Use Preprocessing.ipynb to create a dataset that contains sentiment score of each data and related stock price of that day. The procedure of this file is following
